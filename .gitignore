@@ -70,3 +70,5 @@ local
 # Cucumber and nose tests
 man
 
+# Python compiled files
+*.pyc
