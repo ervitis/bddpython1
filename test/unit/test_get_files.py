@@ -9,5 +9,5 @@ class GetFile(TestCase):
         self.current_directory = os.getcwd()
         self.f = None
 
-    def open_file(self):
+    def test_open_file(self):
         self.assertRaises(IOError, open, self.current_directory)
